@@ -1,0 +1,102 @@
+@import url(./layout/navbar.css);
+@import url(./layout/header.css);
+@import url(./layout/content.css);
+@import url(./base/button.css);
+@import url(./base/text.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./base/pagination.css);
+@import url(./base/popup.css);
+@import url(./base/common.css);
+
+
+@font-face {
+    font-family: notosans-regular;
+    src: url(../assets/fonts/notosans-regular.2cb88a13.woff2);
+}
+
+@font-face {
+    font-family: notosans-italic;
+    src: url(../assets/fonts/notosans-italic.1c1aaac9.woff2);
+}
+
+@font-face {
+    font-family: notosans-bold;
+    src: url(../assets/fonts/notosans-bold.3ede5aff.woff2);
+}
+
+@font-face {
+    font-family: notosans-semibold;
+    src: url(../assets/fonts/notosans-semibold.df3e6dc4.woff2);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    font-family: notosans-regular;
+    font-size: 13px;
+}
+
+.main {
+    display: flex;
+    background-color: blue;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

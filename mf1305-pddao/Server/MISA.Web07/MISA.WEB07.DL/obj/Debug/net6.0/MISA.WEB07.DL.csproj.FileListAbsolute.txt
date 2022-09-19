@@ -1,0 +1,15 @@
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\bin\Debug\net6.0\MISA.WEB07.DL.deps.json
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\bin\Debug\net6.0\MISA.WEB07.DL.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\bin\Debug\net6.0\MISA.WEB07.DL.pdb
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\bin\Debug\net6.0\MISA.WEB07.Common.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\bin\Debug\net6.0\MISA.WEB07.Common.pdb
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.csproj.AssemblyReference.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.AssemblyInfoInputs.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.AssemblyInfo.cs
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.csproj.CoreCompileInputs.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.csproj.CopyComplete
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\refint\MISA.WEB07.DL.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\MISA.WEB07.DL.pdb
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.DL\obj\Debug\net6.0\ref\MISA.WEB07.DL.dll

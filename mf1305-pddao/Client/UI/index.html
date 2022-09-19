@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <div class="navbar">
+      <div class="fixed-nav">
+        <div class="navbar__top">
+          <!-- <div class="navbar__top__content"> -->
+          <div class="none">
+            <div
+              id="expand-nav"
+              class="header-icon mi mi-24 three-strips-icon"
+            ></div>
+          </div>
+
+          <a href="" class="icon"></a>
+          <a href="" class="logo"
+            ><img
+              src="./assets/img/Logo_Module_TiengViet_White.66947422.svg"
+              alt=""
+              class="img__icon"
+          /></a>
+          <!-- </div> -->
+        </div>
+        <div class="navbar-item__list">
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-dashboard"></div>
+            </div>
+            <div class="navbar-item__title">Tổng quan</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-cash"></div>
+            </div>
+            <div class="navbar-item__title">Tiền mặt</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-bank"></div>
+            </div>
+            <div class="navbar-item__title">Tiền gửi</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-buy"></div>
+            </div>
+            <div class="navbar-item__title">Mua hàng</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-sale"></div>
+            </div>
+            <div class="navbar-item__title">Bán hàng</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-invoice"></div>
+            </div>
+            <div class="navbar-item__title">Quản lý hóa đơn</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-stock"></div>
+            </div>
+            <div class="navbar-item__title">Kho</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-tools"></div>
+            </div>
+            <div class="navbar-item__title">Công cụ dụng cụ</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-fixed-asset"></div>
+            </div>
+            <div class="navbar-item__title">Tài sản cố định</div>
+          </a>
+
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-tax"></div>
+            </div>
+            <div class="navbar-item__title">Thuế</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-price"></div>
+            </div>
+            <div class="navbar-item__title">Giá thành</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-general"></div>
+            </div>
+            <div class="navbar-item__title">Tổng hợp</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-budget"></div>
+            </div>
+            <div class="navbar-item__title">Ngân sách</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-report"></div>
+            </div>
+            <div class="navbar-item__title">Báo cáo</div>
+          </a>
+          <a href="" class="navbar-item">
+            <div class="navbar-item__icon">
+              <div class="nav-icon icon-finance"></div>
+            </div>
+            <div class="navbar-item__title">Phân tích tài chính</div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- End of navbar -->
+
+    <!-- start of main container -->
+    <div class="main">
+      <!-- start of header  -->
+      <div class="header">
+        <div
+          id="collapse-nav"
+          class="header-icon mi mi-24 three-strips-icon"
+        ></div>
+        <div class="header-branch">
+          <div class="tooltip-content">
+            <div class="header-branch-name">
+              Công ty cổ phần Vô cùng kỳ diệu
+            </div>
+          </div>
+          <a class="item-center">
+            <div
+              class="header-icon mi mi-14 icon-chevron-right header-branch-icon"
+            ></div>
+          </a>
+        </div>
+      </div>
+      <!-- end of header -->
+
+      <!-- start of content -->
+      <div class="content">
+        <div class="content-area">
+          <div class="layout-dictionary">
+            <div class="title-distance">
+              <div class="header-di">
+                <div class="title-di">Nhân viên</div>
+                <div class="button-di">
+                  <button id="add-employee-button" class="btn btn-add">
+                    <div class="button-text">Thêm mới nhân viên</div>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="layout-dictionary-body">
+              <div class="top-option sticky">
+                <div class="search-option">
+                  <input
+                    id="InputSearch"
+                    class="search-input"
+                    placeholder="Tìm theo mã nhân viên"
+                  />
+                  <div class="ultility-button">
+                    <div class="refesh-button" style="padding: 0 6px">
+                      <div class="mi mi-24 icon-refresh"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="viewer-table">
+                <div class="viewer-table-scroll">
+                  <table id="tblEmployee" class="emp-table-viewer">
+                    <thead class="thead-viewer">
+                      <tr class="tr-viewer">
+                        <th class="out-left-white-16"></th>
+                        <th
+                          class="th-viewer multi-checkall sticky"
+                          style="z-index: 25; left: 16px"
+                        >
+                          <label class="lb-checkbox">
+                            <input type="checkbox" class="checkbox--input" />
+                            <span class="checkbox">
+                              <span class="checkbox-inner"></span>
+                            </span>
+                          </label>
+                        </th>
+                        <div class="dis-content tbody-viewer">
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="
+                              min-width: 179px;
+                              width: 179px;
+                              left: 55px;
+                              z-index: 20;
+                            "
+                          >
+                            <span class="head-title">MÃ NHÂN VIÊN</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-center sticky"
+                            style="
+                              min-width: 167px;
+                              width: 167px;
+                              left: 234px;
+                              z-index: 20;
+                            "
+                          >
+                            <span class="head-title">NGÀY SINH</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky index-20"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">TÊN NHÂN VIÊN</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">GIỚI TÍNH</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">SỐ CMND</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-center sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">NGÀY CẤP</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">NƠI CẤP</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">CHỨC DANH</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">MÃ ĐƠN VỊ</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">TÊN ĐƠN VỊ</span>
+                          </th>
+
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">ĐỊA CHỈ</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">ĐT DI ĐỘNG</span>
+                          </th>
+
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">EMAIL</span>
+                          </th>
+
+                          <th
+                            class="th-viewer justify-center sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">NGÀY TẠO</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title sticky">NGƯỜI TẠO</span>
+                          </th>
+
+                          <th
+                            class="th-viewer justify-center sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">NGÀY SỬA</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-left sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">NGƯỜI SỬA</span>
+                          </th>
+                          <th
+                            class="th-viewer justify-right sticky"
+                            style="min-width: 159px; width: 159px; left: 0px"
+                          >
+                            <span class="head-title">LƯƠNG THỎA THUẬN</span>
+                          </th>
+                        </div>
+                        <th
+                          class="th-viewer th-widget"
+                          style="
+                            right: 30px;
+                            width: 120px;
+                            min-width: 120px;
+                            border-right: 0px;
+                          "
+                        >
+                          <span>CHỨC NĂNG</span>
+                        </th>
+                        <th class="out-right-white-30"></th>
+                      </tr>
+                    </thead>
+                    <tbody id="tbBody" class="dis-content tbody-viewer"></tbody>
+                  </table>
+                  <div class="pagination">
+                    <div class="pagination-bar">
+                      <div class="left-pagination">
+                        <div class="total-record">
+                          Tổng số
+                          <b></b>
+                          bản ghi
+                        </div>
+                        <!--  -->
+                        <!--  -->
+                      </div>
+                      <div class="right-pagination">
+                        <div class="record-in-page">
+                          <div class="record-in-page__value">
+                            <div class="con-tooltip">
+                              <div class="tooltip-parent">
+                                <div
+                                  class="tooltip"
+                                  style="
+                                    left: 0px;
+                                    top: 0px;
+                                    position: fixed;
+                                    display: none;
+                                  "
+                                ></div>
+                              </div>
+                              <div class="tooltip-content"></div>
+                              <!--  -->
+                            </div>
+                            <span>
+                              <div class="con-tooltip">
+                                <div class="tooltip-parent">
+                                  <div
+                                    class="tooltip"
+                                    style="
+                                      left: 0px;
+                                      top: 0px;
+                                      position: fixed;
+                                      display: none;
+                                    "
+                                  ></div>
+                                </div>
+                                <div class="tooltip-content">
+                                  <!-- <div class="combo-main-content">
+                                    <div class="selected-option">
+                                      <input
+                                        type="text"
+                                        size="1"
+                                        placeholder="100 bản ghi"
+                                        readonly="true"
+                                        autofocus="autofocus"
+                                        error="Error"
+                                        class="combo-input"
+                                        style="text-align: left"
+                                      />
+                                      
+                                      
+                                    </div>
+                                    <div
+                                      class="combo-action"
+                                      style="display: flex"
+                                    >
+                                      <div class="btn-dropdown">
+                                        <div
+                                          class="mi mi-16 icon-arrow-dropdown"
+                                        ></div>
+                                      </div>
+                                    </div>
+                                  </div> -->
+                                  <div class="con-combo-editor" isShow="true">
+                                    <div class="combo-editor" required="true">
+                                      <div class="selected-input-option">
+                                        <input
+                                          type="text"
+                                          class="combo-input"
+                                          size="1"
+                                        />
+                                      </div>
+                                      <div class="combo-action">
+                                        <div
+                                          id="btnDropDown"
+                                          class="btn-dropdown active"
+                                        >
+                                          <div
+                                            id="arrow-down"
+                                            class="mi mi-16 icon-arrow-dropdown"
+                                          ></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div id="combo-dropdown" class="combo-data">
+                                      <div class="combo-data__item">Một</div>
+                                      <div class="combo-data__item">Hai</div>
+                                      <div class="combo-data__item">Ba</div>
+                                      <div class="combo-data__item">Bốn</div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <!--  -->
+                              </div>
+                            </span>
+                          </div>
+                        </div>
+                        <div style="display: flex; align-items: center">
+                          <div class="prev-text">Trước</div>
+                          <div class="page-index">
+                            <div class="pd-2 page-selected">1</div>
+                            <div class="pd-2">2</div>
+                          </div>
+                          <div class="next-text">Sau</div>
+                        </div>
+                      </div>
+                    </div>
+                    <th class="out-righ-white-30"></th>
+                    <th class="out-right-grey-30"></th>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of content -->
+    </div>
+    <!-- end of main container -->
+
+    <!-- Pop-up -->
+    <div id="dlgEmployee" class="popup">
+      <div class="add-employee-container">
+        <div class="popup-content">
+          <div class="popup--header">
+            <div class="popup--title">
+              <div style="display: flex">
+                <div class="hd-pop-title">Thông tin nhân viên</div>
+              </div>
+            </div>
+            <div class="popup--close">
+              <div
+                class="mi mi-24 icon-help"
+                style="padding-right: 6px"
+                data-title="Giúp (?)"
+              ></div>
+              <div
+                id="btn-close"
+                class="mi mi-24 icon-close"
+                data-title="Đóng (ESC)"
+              ></div>
+            </div>
+          </div>
+          <div class="popup--content">
+            <div class="popup--content__employee">
+              <div class="employee-general-info">
+                <div class="w-1/2 pr-26">
+                  <span>
+                    <div class="row-input">
+                      <div class="w-2/5 pr-6">
+                        <div class="ms-input">
+                          <div class="flex">
+                            <div class="input-title">Mã</div>
+                            <div class="title-required">&nbsp;*</div>
+                          </div>
+                          <div>
+                            <div class="input-style-label">
+                              <input
+                                id="txtEmployeeCode"
+                                type="text"
+                                class="input-normal"
+                                required="true"
+                                prop-name="EmployeeCode"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="w-3/5">
+                        <div class="ms-input">
+                          <div class="flex">
+                            <div class="input-title">Tên</div>
+                            <div class="title-required">&nbsp;*</div>
+                          </div>
+                          <div>
+                            <div class="input-style-label">
+                              <input
+                                type="text"
+                                class="input-normal"
+                                required="true"
+                                prop-name="FullName"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-input">
+                      <div class="w-full">
+                        <div class="flex">
+                          <div class="input-title">Đơn vị</div>
+                          <div class="title-required">&nbsp;*</div>
+                        </div>
+                        <div id="conCombo" class="con-combo-editor">
+                          <div class="combo-editor" required="true">
+                            <div class="selected-input-option">
+                              <input
+                                type="text"
+                                class="combo-input"
+                                size="1"
+                                prop-name="DepartmentCode"
+                              />
+                            </div>
+                            <div class="combo-action">
+                              <div id="btnDropDown" class="btn-dropdown active">
+                                <div
+                                  id="arrow-down"
+                                  class="mi mi-16 icon-arrow-dropdown"
+                                ></div>
+                              </div>
+                            </div>
+                          </div>
+                          <div id="combo-dropdown" class="combo-data">
+                            <!-- <div class="combo-data__item">
+                              <div class="combo-data__item-code"></div>
+                              <div class="combo-data__item-name"></div>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row-input">
+                      <div class="w-full">
+                        <div class="flex">
+                          <div class="input-title">Chức danh</div>
+                        </div>
+                        <div>
+                          <div class="input-style-label">
+                            <input
+                              type="text"
+                              class="input-normal"
+                              prop-name="PositionName"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </span>
+                </div>
+                <div class="w-1/2">
+                  <div class="row-input">
+                    <div class="w-2/5 pr-6">
+                      <div class="date-picker-container">
+                        <div class="flex">
+                          <div class="input-title">Ngày sinh</div>
+                        </div>
+                        <div>
+                          <div class="input-style-label">
+                            <input
+                              type="date"
+                              class="input-normal"
+                              prop-name="DateOfBirth"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-3/5"></div>
+                  </div>
+                  <div class="row-input">
+                    <div class="w-3/5 pr-6">
+                      <div class="flex">
+                        <div
+                          class="input-title"
+                          data-title="Số chứng minh nhân dân"
+                        >
+                          Số CMND
+                        </div>
+                      </div>
+                      <div>
+                        <div class="input-style-label">
+                          <input
+                            type="text"
+                            class="input-normal"
+                            prop-name="IndentityNumber"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="w-2/5">
+                      <div class="date-picker-container">
+                        <div class="flex">
+                          <div class="input-title">Ngày cấp</div>
+                        </div>
+                        <div>
+                          <div class="input-style-label">
+                            <input
+                              type="date"
+                              class="input-normal"
+                              prop-name="IndentityDate"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row-input">
+                    <div class="w-full">
+                      <div class="flex">
+                        <div class="input-title">Nơi cấp</div>
+                      </div>
+                      <div>
+                        <div class="input-style-label">
+                          <input
+                            type="text"
+                            class="input-normal"
+                            prop-name="IndentityPlace"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="flex">
+              <div class="popup-tab w-full"></div>
+            </div>
+            <div class="footer-container">
+              <div class="divide"></div>
+              <div class="popup--footer">
+                <div class="flex">
+                  <div class="w-full flex align-right">
+                    <div class="right-group-button-popup flex">
+                      <div class="first-right-button px-3">
+                        <button
+                          class="btn btn-normal"
+                          data-title="Cất (Ctrl + S)"
+                        >
+                          Cất
+                        </button>
+                      </div>
+                      <div class="second-right-button">
+                        <button
+                          class="btn btn-add"
+                          data-title="Cất và thêm (Ctrl + Shift + S)"
+                        >
+                          Cất và thêm
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="w-1/2 align-left" style="position: absolute">
+                    <div class="left-group-button">
+                      <button class="btn btn-normal">Hủy</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

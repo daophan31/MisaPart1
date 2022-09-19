@@ -1,0 +1,199 @@
+.input-normal {
+    border-radius: 3px;
+    background-color: #fff;
+    font-size: 13px;
+    height: 32px;
+    color: inherit;
+    position: relative;
+    padding: 0 10px;
+    border-radius: 2px;
+    border: 1px solid #babec5;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 12px 0 10px;
+   
+}
+
+.input-normal:hover {
+    box-shadow: 0 0 0 1px #fff inset,
+      0px 0px 5px 0px rgb(0 0 0 / 30%);
+}
+
+.input-normal:focus {
+    outline: none;
+    border: 1px solid #2ca01c;
+}
+
+
+.search-input {
+    border-radius: 3px;
+    width: 240px;
+    height: 28px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbbbbb;
+    outline: none;
+    margin-right: 10px;
+    padding: 0 16px;
+    transition: all linear 0.2s;
+}
+
+.search-input::placeholder {
+    
+    font-family: notosans-italic;
+    font-size: 11px;
+    color: #bbbbbb;
+}
+
+.search-input:hover {
+    
+    box-shadow: 0 0 0 1px #fff inset,
+      0px 0px 5px 0px rgb(0 0 0 / 30%);
+
+}
+
+.search-input:focus-visible{
+    outline: auto #2ca01c;
+}
+
+.checkbox--input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 100;
+    z-index: 200;
+    cursor: pointer;
+}
+
+.checkbox {
+    top: 0;
+    left: 0;
+    transition: all .2s ease;
+    /* transform: rotate(-90deg); */
+    cursor: pointer;
+    position: relative;
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid #afafaf;
+    background: #fff; */
+    
+}
+
+.checkbox-inner {
+    width: inherit;
+    height: inherit;
+}
+
+.selected-option .combo-input{
+    border: none;
+    padding-right: unset;
+    text-overflow: ellipsis;
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.border-red {
+    border-color: red;
+}
+
+/* combo-editor input */
+.combo-editor{
+    display: flex;
+    min-height: 30px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.selected-input-option {
+    display: flex;
+    flex-basis: 100%;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    width: calc(100% - 32px);
+    align-items: center;
+    padding: 0 0 0 10px;
+}
+
+.combo-input {
+    border: none;
+    font-size: 13px;
+    padding-right: unset;
+    text-overflow: ellipsis;
+    background-color: transparent;
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    outline: none;
+}
+
+.combo-data {
+    z-index: 10001;
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    padding: 2px 0 2px 0;
+    box-shadow: 0 -8px 34px 0 rgb(0 0 0 / 5%);
+    top: 36px;
+    left: 0px;
+    /* min-width: 405px;
+    max-width: 405px; */
+    transition: all 500ms ease 0s;
+    overflow: hidden;
+    
+}
+
+.combo-data__item {
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.combo-data__item:hover {
+    background-color: #babec5;
+}
+
+/* ----------------------------------- */
+
+.border-acitive {
+    border: 1px solid #2ca01c
+}
+
+input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    padding: 2px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1px solid #babec5;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+    margin: 0;
+    margin-right: 2px;
+  }
+
+input[type="radio"]:checked {
+    background-color: #2ca01c;
+  }

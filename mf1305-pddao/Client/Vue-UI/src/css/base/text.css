@@ -1,0 +1,10 @@
+.button-text {
+    font-weight: 600;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    transition: all .25s ease;
+    white-space: nowrap;
+    font-size: 13px;
+    line-height: 13px;
+}

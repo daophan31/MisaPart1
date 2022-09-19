@@ -1,0 +1,147 @@
+.popup {
+   
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,.4);
+    z-index: 999;
+}
+
+
+
+.ms-input {
+    width: 100%;
+    color: #111;
+}
+
+.add-employee-container {
+
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: #fff; */
+    min-width: 300px;
+    
+    
+}
+
+.popup-content {
+    border-radius: 3px;
+    position: relative; 
+    transition: all .2s;
+    z-index: 200;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    min-width: 900px;
+    max-width: 900px;
+    width: 900px;
+    
+}
+
+.popup--header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px 5px;
+    position: relative;
+}
+
+.popup--title {
+    width: 100%;
+    padding: 20px 32px 20px 32px;
+    padding-right: 12px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px 5px 0 0;
+    font-family: notosans-bold;
+}
+
+.popup--close {
+    display: flex;
+    padding: 12px;
+}
+
+.hd-pop-title {
+    font-size: 24px;
+    color: #111;
+    font-weight: 700;
+}
+
+.popup--content {
+    transition: all .23s ease .1s;
+    flex-direction: column;
+    display: flex;
+    
+    overflow-y: visible;
+    padding: 0 32px 20px 32px;
+}
+
+.employee-general-info {
+    display: flex!important;
+    padding-bottom: 12px;
+}
+
+.row-input {
+    padding-bottom: 12px;
+    display: flex;
+    
+    
+}
+
+
+.input-title {
+    font-family: notosans-bold;
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 4px;
+    white-space: nowrap;
+    
+}
+
+.title-required {
+    color :red
+}
+
+.input-style-label {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.combo-action {
+    display: flex;
+    transition: all ease 0.2s;
+}
+
+.combo-action:hover {
+    background-color: #e0e0e0;
+    border-color: #e0e0e0;
+}
+
+.date-picker-container {
+    position: relative;
+}
+
+.divide {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 32px 0 20px 0;
+    position: relative;
+}
+
+.con-combo-editor {
+    position: relative;}
+
+.con-combo-editor:hover {
+    box-shadow: 0 0 0 1px #fff inset,
+      0px 0px 5px 0px rgb(0 0 0 / 30%);
+}

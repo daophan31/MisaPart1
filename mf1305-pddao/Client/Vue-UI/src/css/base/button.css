@@ -1,0 +1,77 @@
+.btn {
+    font-family: notosans-bold;
+    cursor: pointer;
+    height: 34px;
+    border: 1px solid transparent;
+    padding: 6px 16px;
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 13px
+}
+
+.btn-normal {
+    border: 1px solid #8d9096;
+    color: #111;
+    background-color: transparent;
+    transition: all ease-in 0.2s;
+}
+
+.btn-normal:hover {
+    background-color: #d2d3d6;
+}
+
+.btn-normal:active {
+    background-color: #8d9096;
+}
+
+.btn-add {
+    background-color: #2ca01c;
+    color: #fff;
+    transition: all ease-in 0.2s;
+}
+
+.btn-add:focus-visible {
+    background-color: #35bf22;
+    
+    
+}
+
+.btn-add:hover {
+    background-color: #35bf22
+}
+
+.btn-add:active {
+    background-color: #2ca01c;
+}
+
+.btn-dropdown {
+    width: 32px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-edit-data {
+    cursor: pointer;
+    text-align: center;
+    color: #0075c0;
+    font-family: notosans-bold;
+    transition: all ease 0.2s;
+}
+
+.btn-edit-data:hover {
+    color: #024874;
+    
+}
+
+.btn-edit-data:active {
+    color: #0075c0;
+}
+
+.btn-edit-data:focus-visible {
+    outline: auto blue;
+}
+
+

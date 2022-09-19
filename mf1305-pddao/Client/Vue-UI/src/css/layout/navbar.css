@@ -1,0 +1,83 @@
+@import url(./icon.css);
+
+.navbar {
+    background-color: aquamarine;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-shrink: 0;
+    overflow: unset;
+    
+}
+
+.navbar__top {
+    display: flex;
+    width: 100%; 
+    display: flex;
+    background-color: #38393d;
+    height: 48px;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 24;
+}
+
+.navbar__top .icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -424px -88px;
+    
+}
+
+.navbar__top .logo .img__icon{
+    height: 32px;
+    
+}
+
+.navbar-item__list {
+    box-sizing: border-box;
+    padding-top: 14px;
+    background-color:#393a3d;
+    height: calc(100vh - 48px );
+    overflow-y: scroll;
+}
+
+.navbar-item__list::-webkit-scrollbar {
+    display: none;
+}
+
+.navbar-item {
+    transition:all linear 0.2s;
+    border-left: 6px solid transparent;
+    display: flex;
+    height: 42px;
+    line-height: 42px;
+    padding: 0 0 0 8px;
+    text-decoration: none
+    
+}
+
+.navbar-item:hover {
+    background-color: #d4d7dc83;
+}
+
+.navbar-item__icon {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-item__title {
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+   padding-right: 14px ;
+}
+
+.menu-item-selected {
+    border-left: 6px solid #35bf22;
+    font-family: notosans-bold;
+    background-color: #d4d7dc83;
+}

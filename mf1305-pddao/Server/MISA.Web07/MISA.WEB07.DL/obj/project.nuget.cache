@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "c/Z6CNnlZ/t6JWmH/Pt80G9MTWT+KxnuM8fIDKweGIP2ezNnEXWCfXUH1zTE7XycNGwlC96BGped98ZszLuOaw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\daoka\\OneDrive\\Desktop\\misa-fresher-web07-2022\\mf1305-pddao\\Server\\MISA.Web07\\MISA.WEB07.DL\\MISA.WEB07.DL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\daoka\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
+    "C:\\Users\\daoka\\.nuget\\packages\\mysqlconnector\\2.1.12\\mysqlconnector.2.1.12.nupkg.sha512"
+  ],
+  "logs": []
+}

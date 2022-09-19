@@ -1,0 +1,131 @@
+.mi {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat;
+    cursor: pointer;
+}
+
+.mi-14 {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+.mi-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+/* Navbar-icon */
+.nav-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.icon-arrow-dropdown {
+    background-position: -368px -359px;
+}
+
+.icon-refresh {
+    background-position: -425px -201px;
+    
+}
+
+.icon-refresh:hover {
+    background-position: -1098px -89px;
+}
+
+.icon-help {
+    background-position:-89px -145px;
+}
+
+.icon-close {
+    background-position: -147px -145px;
+}
+
+.icon-dashboard {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -33px -1630px;
+}
+
+.icon-cash {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -78px -1631px;
+}
+
+.icon-bank {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -121px -1633px;
+}
+
+.icon-buy {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -165px -1632px;
+}
+
+.icon-sale {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -206px -1631px;
+}
+
+.icon-invoice {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -254px -1632px;
+}
+
+.icon-stock {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -294px -1632px;
+}
+
+.icon-tools {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -339px -1633px;
+}
+
+.icon-fixed-asset {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -382px -1632px;
+}
+
+.icon-tax {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -427px -1634px;
+}
+
+.icon-price {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -471px -1633px;
+}
+
+.icon-general {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -514px -1632px;
+}
+
+.icon-budget {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -382px -1664px;
+}
+
+.icon-report {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -552px -1636px;
+}
+
+.icon-finance {
+    background: url(../../assets/img/Sprites.64af8f61.svg) no-repeat -207px -1667px;
+}
+
+/* Header Icon */
+.header-icon {
+    margin: 0 10px;
+}
+
+.three-strips-icon {
+    background-position: -843px -30px;
+}
+
+.header-branch-icon {
+    transform: rotate(90deg);
+    margin-left: 10px;
+}
+
+.icon-chevron-right {
+    background-position: -81px -361px;
+}
+

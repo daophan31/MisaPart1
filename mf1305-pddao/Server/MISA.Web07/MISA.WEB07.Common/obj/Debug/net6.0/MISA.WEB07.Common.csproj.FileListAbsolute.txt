@@ -1,0 +1,14 @@
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\bin\Debug\net6.0\MISA.WEB07.Common.deps.json
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\bin\Debug\net6.0\MISA.WEB07.Common.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\bin\Debug\net6.0\MISA.WEB07.Common.pdb
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.csproj.AssemblyReference.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.AssemblyInfoInputs.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.AssemblyInfo.cs
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.csproj.CoreCompileInputs.cache
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\refint\MISA.WEB07.Common.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.pdb
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\ref\MISA.WEB07.Common.dll
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.Enum.Resource1.resources
+C:\Users\daoka\OneDrive\Desktop\misa-fresher-web07-2022\mf1305-pddao\Server\MISA.Web07\MISA.WEB07.Common\obj\Debug\net6.0\MISA.WEB07.Common.csproj.GenerateResource.cache
